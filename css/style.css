@@ -174,56 +174,56 @@ body {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0) 20%,
       rgba(0, 0, 0, 1)),
-    url(/media/egypt.png);
+    url(media/egypt.png);
 }
 
 #turkey {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0) 20%,
       rgba(0, 0, 0, 1)),
-    url(/media/turkey.jpg);
+    url(media/turkey.jpg);
 }
 
 #jordan {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0) 20%,
       rgba(0, 0, 0, 1)),
-    url(/media/jordan.jpg);
+    url(media/jordan.jpg);
 }
 
 #uae {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0) 20%,
       rgba(0, 0, 0, 1)),
-    url(/media/uae.jpg);
+    url(media/uae.jpg);
 }
 
 #england {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0) 20%,
       rgba(0, 0, 0, 1)),
-    url(/media/england.png);
+    url(media/england.png);
 }
 
 #france {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0) 20%,
       rgba(0, 0, 0, 1)),
-    url(/media/france.jpg);
+    url(media/france.jpg);
 }
 
 #italy {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0) 20%,
       rgba(0, 0, 0, 1)),
-    url(/media/italy.jpg);
+    url(media/italy.jpg);
 }
 
 #germany {
   background: linear-gradient(to bottom,
       rgba(0, 0, 0, 0) 20%,
       rgba(0, 0, 0, 1)),
-    url(/media/germany.jpg);
+    url(media/germany.jpg);
 }
 
 
