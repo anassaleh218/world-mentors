@@ -12,7 +12,7 @@ function img(x, y, z) {
         to bottom,
         rgba(0, 0, 0, 0) 20%,
         rgba(0, 0, 0, 1)
-      ),url("../media/${y}")`;
+      ),url("media/${y}")`;
     document.getElementById(x).innerHTML = z;
 }
 
