@@ -16,7 +16,7 @@ function img(x, y, z) {
     document.getElementById(x).innerHTML = z;
 }
 
-const e = 'egypt.PNG';
+const e = 'egypt.png';
 const e2 = 'egypt2.jpg';
 const egyptid = "egypt";
 const egypttxt = "pyramids";
