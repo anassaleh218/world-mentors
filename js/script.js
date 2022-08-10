@@ -66,34 +66,54 @@ const italytxt = "Colosseum";
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:4,
-    loop:true,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:false
+    items: 4,
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: false
         },
-        600:{
-            items:2,
-            nav:false
+        600: {
+            items: 2,
+            nav: false
         },
-        1000:{
-            items:3,
-            nav:true,
+        1000: {
+            items: 3,
+            nav: true,
         }
     },
-    autoplay:true,
-    autoplayTimeout:1500,
-    autoplayHoverPause:true
+    autoplay: true,
+    autoplayTimeout: 1500,
+    autoplayHoverPause: true
 });
-$('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[1000])
+$('.play').on('click', function () {
+    owl.trigger('play.owl.autoplay', [1000])
 })
-$('.stop').on('click',function(){
+$('.stop').on('click', function () {
     owl.trigger('stop.owl.autoplay')
 })
 
 
+var icon = document.getElementById("icon")
+var facebook = document.getElementById("facebook")
+var instagram = document.getElementById("instagram")
+var github = document.getElementById("github")
+var pinterest = document.getElementById("pinterest")
+var twitter= document.getElementById("twitter")
 
+icon.onclick = function () {
+    document.body.classList.toggle("darktheme");
+
+    if (document.body.classList.contains("darktheme")) {
+        icon.src = "media/sun.png";
+        facebook.src ="media/icon facebook dark.png"
+        instagram.src ="media/icon instagram dark.png"
+        github.src ="media/icon github dark.png"
+        pinterest.src ="media/icon pinterest dark.png"
+        twitter.src ="media/icon twitter dark.png"
+    } else {
+        icon.src = "media/darkicon.png";
+    }
+}
