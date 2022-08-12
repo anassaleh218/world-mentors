@@ -384,7 +384,6 @@ body {
 .latest {
   display: flex;
   flex-direction: column;
-  height: 750px;
   margin-bottom: 20px;
   padding-bottom: 10px;
   background: var(--articlesbg-color);
