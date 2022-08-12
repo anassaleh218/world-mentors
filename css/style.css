@@ -703,7 +703,7 @@ a:hover {
   color: #ffb000;
 }
 .hidden-article {
-  display:hide;
+  display:none;
 }
 .show-article {
   display:block;
