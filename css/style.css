@@ -702,3 +702,9 @@ a {
 a:hover {
   color: #ffb000;
 }
+.hidden-article {
+  display:hide;
+}
+.show-article {
+  display:block;
+}
