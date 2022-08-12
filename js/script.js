@@ -117,3 +117,12 @@ icon.onclick = function () {
         icon.src = "media/darkicon.png";
     }
 }
+
+var content1 = document.getElementById("Al-Aqsa")
+var content2 = document.getElementById("Pantheon")
+var content3 = document.getElementById("Church")
+var content4 = document.getElementById("Temple")
+var btn1 = document.getElementById("Al-Aqsa-btn")
+var btn2 = document.getElementById("Pantheon-btn")
+var btn3 = document.getElementById("Church-btn")
+var btn4 = document.getElementById("Temple-btn")
